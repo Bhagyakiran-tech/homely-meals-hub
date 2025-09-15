@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        warmth: {
+          DEFAULT: "hsl(var(--warmth))",
+          foreground: "hsl(var(--warmth-foreground))",
+        },
+        nature: {
+          DEFAULT: "hsl(var(--nature))",
+          foreground: "hsl(var(--nature-foreground))",
+        },
+        cream: {
+          DEFAULT: "hsl(var(--cream))",
+          dark: "hsl(var(--cream-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +69,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-warm': 'var(--gradient-warm)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
+      },
+      boxShadow: {
+        'warm': 'var(--shadow-warm)',
+        'soft': 'var(--shadow-soft)',
       },
       borderRadius: {
         lg: "var(--radius)",
